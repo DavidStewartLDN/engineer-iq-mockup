@@ -1,0 +1,25 @@
+.services-container {
+  display: flex;
+  flex-direction: row;
+  padding: 80px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.box {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-style: solid;
+  border-spacing: 15px 0px;
+  background-color: #ed7d31;
+  color: white;
+  border-radius: 15px;
+}
+
+.text {
+  padding: 0px;
+}
+
+.email {
+  padding: 0px;
+}
