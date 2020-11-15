@@ -1,15 +1,21 @@
 .header {
   height: 70px;
   width: 100%;
-  font-size: 40px;
+  font-size: 26px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  align-items: center;
 
   .logo-container {
-    height: 100%;
-    width: 70px;
+    height: auto;
+    width: auto;
     padding: 5px;
+  }
+
+  .logo {
+    height: auto;
+    width: auto;
   }
 
   .options {
@@ -17,13 +23,16 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 
     .option {
       padding: 10px 15px;
       cursor: pointer;
       border-style: solid;
       border-spacing: 15px 0px;
+      background-color: #ed7d31;
+      color: white;
+      border-radius: 15px;
     }
   }
 }
