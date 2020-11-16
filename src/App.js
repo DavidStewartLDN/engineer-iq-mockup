@@ -13,7 +13,7 @@ import ServicesPage from './pages/servicespage/servicespage.component';
 
 function App() {
   return (
-    <div>
+    <div className='app-container'>
       <Header/>
       <Switch>
         <Route exact path='/' component={HomePage} />
