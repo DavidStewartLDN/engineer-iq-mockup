@@ -3,7 +3,7 @@ import React from 'react';
 import './contactpage.styles.scss'
 
 const ContactPage = () => (
-  <div className='services-container'>
+  <div className='contact-container'>
     <div className='services-box'>
       <h3 className='box'> Consultancy Rates <br/> RFQ Development <br/> Bid Qualification <br/> Troubleshooting</h3>
       <a href={"mailto:sales@engineeriq.co.uk"} className='email'> sales@engineeriq.co.uk </a>
