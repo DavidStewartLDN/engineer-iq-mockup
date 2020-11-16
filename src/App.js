@@ -9,6 +9,7 @@ import Team from './pages/team/team.component';
 import Contact from './pages/contactpage/contactpage.component';
 import Footer from './components/footer/footer.component';
 import CaseStudiesPage from './pages/casestudies/casestudies.component';
+import ServicesPage from './pages/servicespage/servicespage.component';
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
         <Route exact path='/' component={HomePage} />
         <Route exact path='/approach' component={HomePage} />
         <Route path='/team' component={Team} />
-        <Route path='/contactus' component={Contact} />
+        <Route path='/services' component={ServicesPage} />
         <Route path='/studies' component={CaseStudiesPage} />
+        <Route path='/contactus' component={Contact} />
       </Switch>
       <Footer/>
     </div>
