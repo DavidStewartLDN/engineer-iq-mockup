@@ -11,24 +11,25 @@ function ServicesPage(){
 
   const [currentPicture, setCurrentPicture] = useState(Automation)
 
+  console.log(currentPicture)
   return(
-  <div className='services-container'>
-    <div className='buttons-container'>
-      <div className='services-box'>
-        <h3 className='box'> Automation</h3>
+    <div className='services-container'>
+      <div className='buttons-container'>
+        <div className='services-box' onClick={() => setCurrentPicture(Automation)}>
+          <h3 className='box'>Automation</h3>
+        </div>
+        <div className='services-box' onClick={() => setCurrentPicture(Operation)}>
+          <h3 className='box'>Operation</h3>
+        </div>
+        <div className='services-box' onClick={() => setCurrentPicture(Process)}>
+          <h3 className='box'>Process</h3>
+        </div>
+        <div className='services-box' onClick={() => setCurrentPicture(Utilities)}>
+          <h3 className='box'>Utilities</h3>
+        </div>
       </div>
-      <div className='services-box'>
-        <h3 className='box'> Operation </h3>
-      </div>
-      <div className='services-box'>
-        <h3 className='box'> Process</h3>
-      </div>
-      <div className='services-box'>
-        <h3 className='box'> Utilities</h3>
-      </div>
+      <img className='placeholder' alt='Services offered' src={currentPicture} />
     </div>
-    <img className='placeholder' alt='Services offered' src={currentPicture} />
-  </div>
   );
 }
 

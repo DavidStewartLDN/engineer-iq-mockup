@@ -7,7 +7,7 @@ import Placeholder from '../../assets/placeholder.png';
 const Profile = ({title, imageUrl, description, email}) => (
   <div className='profile-card'>
     <div className='profile-image'>
-      <img className='profile' alt='Profile image' src={Placeholder} />
+      <img className='profile' alt='Profile' src={Placeholder} />
     </div>
     <div className='content'>
       <h1 className='title'> {title.toUpperCase()} </h1>
