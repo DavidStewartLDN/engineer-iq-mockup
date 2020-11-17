@@ -2,8 +2,15 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  align-items: center;
+  padding: 80px 200px;
 }
 
-.placeholder {
-  max-width: 1300px;
+.buttons-container{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.current-image {
+  max-width: 1000px;
 }

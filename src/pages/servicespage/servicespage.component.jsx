@@ -28,7 +28,7 @@ function ServicesPage(){
           <h3 className='box'>Utilities</h3>
         </div>
       </div>
-      <img className='placeholder' alt='Services offered' src={currentPicture} />
+      <img className='current-image' alt='Services offered' src={currentPicture} />
     </div>
   );
 }
