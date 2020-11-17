@@ -4,7 +4,8 @@ import './servicespage.styles.scss'
 
 import Automation from '../../assets/services_images/services_automation.png';
 
-const ServicesPage = () => (
+function ServicesPage(){
+  return(
   <div className='services-container'>
     <div className='buttons-container'>
       <div className='services-box'>
@@ -22,6 +23,7 @@ const ServicesPage = () => (
     </div>
     <img className='placeholder' alt='Services offered' src={Automation} />
   </div>
-)
+  );
+}
 
 export default ServicesPage;
